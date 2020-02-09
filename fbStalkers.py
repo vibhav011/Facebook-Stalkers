@@ -29,7 +29,7 @@ def printName(x) :
 		name = driver.find_element_by_xpath("//span[@id='fb-timeline-cover-name']//child::a").text
 		print(name)
 	except:
-		print("hag diya")
+		print("Some Error Occurred")
 
 while s[ind] != "]" :
 	if s[ind] == '"' :
